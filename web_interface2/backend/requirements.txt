@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+python-multipart
+torch
+torchvision
+timm
+transformers
+Pillow
+numpy
+pandas
+open_clip_torch
+torchxrayvision
+scikit-image
+python-dotenv
+google-genai
+opencv-python
+pytorch-grad-cam

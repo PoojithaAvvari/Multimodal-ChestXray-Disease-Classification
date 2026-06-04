@@ -59,7 +59,7 @@ from transformers import AutoTokenizer
 from sklearn.metrics import f1_score, roc_auc_score
 
 from dataset_classification_main import IUDataset
-from model import MultimodalClassifier
+from arch_model import MultimodalClassifier
 
 TEST_CSV = "data/test_labeled.csv"
 LABELS_JSON = "data/label_names.json"

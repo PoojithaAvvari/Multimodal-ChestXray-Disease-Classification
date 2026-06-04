@@ -3,7 +3,7 @@
 import torch, json
 from PIL import Image
 from transformers import AutoTokenizer
-from model import MultimodalClassifier
+from arch_model import MultimodalClassifier
 from dataset_classification_main import image_transform
 import numpy as np
 from auth_inference import authenticity_check

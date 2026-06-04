@@ -13,3 +13,5 @@ opencv-python
 streamlit
 grad-cam  # or pytorch-grad-cam
 evaluate
+google-genai
+python-dotenv

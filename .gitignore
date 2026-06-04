@@ -19,3 +19,31 @@ gan_discriminator.pth
 gan_generator.pth
 wgan_generator_medical.pth
 
+
+.env
+*.env
+web_interface2/backend/.env
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+diffvenv/
+venv/
+
+# Model Weights
+*.pt
+*.pth
+
+# Dataset
+data/
+fake_xrays/
+fake_reports/
+auth_dataset/
+auth_full_dataset/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/

@@ -6,7 +6,7 @@ import numpy as np
 from torch.utils.data import DataLoader
 from transformers import AutoTokenizer
 from dataset_classification_main import IUDataset
-from model import MultimodalClassifier
+from arch_model import MultimodalClassifier
 from tqdm.auto import tqdm
 
 def parse_args():
